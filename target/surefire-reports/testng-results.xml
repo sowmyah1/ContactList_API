@@ -1,63 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-26T18:06:49 IST" name="Surefire suite" finished-at="2025-03-26T18:07:08 IST" duration-ms="19465">
+  <suite started-at="2025-03-26T21:46:04 IST" name="Surefire suite" finished-at="2025-03-26T21:46:31 IST" duration-ms="27065">
     <groups>
       <group name="regression">
-        <method signature="ContactsTest.testUpdateContact()[pri:4, instance:contactList.api.test.ContactsTest@568bf312]" name="testUpdateContact" class="contactList.api.test.ContactsTest"/>
-        <method signature="ContactsTest.testUpdateContactFirstName()[pri:5, instance:contactList.api.test.ContactsTest@568bf312]" name="testUpdateContactFirstName" class="contactList.api.test.ContactsTest"/>
+        <method signature="UserTest.testUpdateUser()[pri:3, instance:contactList.api.test.UserTest@1a84f40f]" name="testUpdateUser" class="contactList.api.test.UserTest"/>
+        <method signature="ContactsTest.testUpdateContact()[pri:4, instance:contactList.api.test.ContactsTest@14ec4505]" name="testUpdateContact" class="contactList.api.test.ContactsTest"/>
+        <method signature="ContactsTest.testUpdateContactFirstName()[pri:5, instance:contactList.api.test.ContactsTest@14ec4505]" name="testUpdateContactFirstName" class="contactList.api.test.ContactsTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="ContactsTest.testAddContacts()[pri:1, instance:contactList.api.test.ContactsTest@568bf312]" name="testAddContacts" class="contactList.api.test.ContactsTest"/>
-        <method signature="UserTest.testPostUser()[pri:1, instance:contactList.api.test.UserTest@52e677af]" name="testPostUser" class="contactList.api.test.UserTest"/>
-        <method signature="ContactsTest.testdeleteContacts()[pri:6, instance:contactList.api.test.ContactsTest@568bf312]" name="testdeleteContacts" class="contactList.api.test.ContactsTest"/>
+        <method signature="ContactsTest.testAddContacts()[pri:1, instance:contactList.api.test.ContactsTest@14ec4505]" name="testAddContacts" class="contactList.api.test.ContactsTest"/>
+        <method signature="UserTest.testPostUser()[pri:1, instance:contactList.api.test.UserTest@1a84f40f]" name="testPostUser" class="contactList.api.test.UserTest"/>
+        <method signature="ContactsTest.testdeleteContacts()[pri:6, instance:contactList.api.test.ContactsTest@14ec4505]" name="testdeleteContacts" class="contactList.api.test.ContactsTest"/>
+        <method signature="UserTest.testDeleteUser()[pri:6, instance:contactList.api.test.UserTest@1a84f40f]" name="testDeleteUser" class="contactList.api.test.UserTest"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="ContactsTest.testReadContactList()[pri:2, instance:contactList.api.test.ContactsTest@568bf312]" name="testReadContactList" class="contactList.api.test.ContactsTest"/>
-        <method signature="ContactsTest.testReadContacts()[pri:3, instance:contactList.api.test.ContactsTest@568bf312]" name="testReadContacts" class="contactList.api.test.ContactsTest"/>
+        <method signature="ContactsTest.testReadContactList()[pri:2, instance:contactList.api.test.ContactsTest@14ec4505]" name="testReadContactList" class="contactList.api.test.ContactsTest"/>
+        <method signature="UserTest.testGetUser()[pri:2, instance:contactList.api.test.UserTest@1a84f40f]" name="testGetUser" class="contactList.api.test.UserTest"/>
+        <method signature="ContactsTest.testReadContacts()[pri:3, instance:contactList.api.test.ContactsTest@14ec4505]" name="testReadContacts" class="contactList.api.test.ContactsTest"/>
+        <method signature="UserTest.testLoginUser()[pri:4, instance:contactList.api.test.UserTest@1a84f40f]" name="testLoginUser" class="contactList.api.test.UserTest"/>
+        <method signature="UserTest.testLogoutUser()[pri:5, instance:contactList.api.test.UserTest@1a84f40f]" name="testLogoutUser" class="contactList.api.test.UserTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-03-26T18:06:49 IST" name="Surefire test" finished-at="2025-03-26T18:07:08 IST" duration-ms="19465">
+    <test started-at="2025-03-26T21:46:04 IST" name="Surefire test" finished-at="2025-03-26T21:46:31 IST" duration-ms="27065">
       <class name="contactList.api.test.ContactsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:contactList.api.test.ContactsTest@568bf312]" started-at="2025-03-26T18:06:49 IST" name="setup" finished-at="2025-03-26T18:06:55 IST" duration-ms="5818" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:contactList.api.test.ContactsTest@14ec4505]" started-at="2025-03-26T21:46:04 IST" name="setup" finished-at="2025-03-26T21:46:07 IST" duration-ms="3557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testAddContacts()[pri:1, instance:contactList.api.test.ContactsTest@568bf312]" started-at="2025-03-26T18:06:55 IST" name="testAddContacts" finished-at="2025-03-26T18:06:56 IST" duration-ms="1540" status="PASS">
+        <test-method signature="testAddContacts()[pri:1, instance:contactList.api.test.ContactsTest@14ec4505]" started-at="2025-03-26T21:46:07 IST" name="testAddContacts" finished-at="2025-03-26T21:46:09 IST" duration-ms="1547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddContacts -->
-        <test-method signature="testReadContactList()[pri:2, instance:contactList.api.test.ContactsTest@568bf312]" started-at="2025-03-26T18:06:56 IST" name="testReadContactList" finished-at="2025-03-26T18:06:58 IST" duration-ms="1411" status="PASS">
+        <test-method signature="testReadContactList()[pri:2, instance:contactList.api.test.ContactsTest@14ec4505]" started-at="2025-03-26T21:46:09 IST" name="testReadContactList" finished-at="2025-03-26T21:46:10 IST" duration-ms="1439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReadContactList -->
-        <test-method signature="testReadContacts()[pri:3, instance:contactList.api.test.ContactsTest@568bf312]" started-at="2025-03-26T18:06:58 IST" name="testReadContacts" finished-at="2025-03-26T18:06:59 IST" duration-ms="1533" status="PASS">
+        <test-method signature="testReadContacts()[pri:3, instance:contactList.api.test.ContactsTest@14ec4505]" started-at="2025-03-26T21:46:10 IST" name="testReadContacts" finished-at="2025-03-26T21:46:12 IST" duration-ms="1498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReadContacts -->
-        <test-method signature="testUpdateContact()[pri:4, instance:contactList.api.test.ContactsTest@568bf312]" started-at="2025-03-26T18:06:59 IST" name="testUpdateContact" finished-at="2025-03-26T18:07:02 IST" duration-ms="2867" status="PASS">
+        <test-method signature="testUpdateContact()[pri:4, instance:contactList.api.test.ContactsTest@14ec4505]" started-at="2025-03-26T21:46:12 IST" name="testUpdateContact" finished-at="2025-03-26T21:46:15 IST" duration-ms="2790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateContact -->
-        <test-method signature="testUpdateContactFirstName()[pri:5, instance:contactList.api.test.ContactsTest@568bf312]" started-at="2025-03-26T18:07:02 IST" name="testUpdateContactFirstName" finished-at="2025-03-26T18:07:05 IST" duration-ms="3067" status="PASS">
+        <test-method signature="testUpdateContactFirstName()[pri:5, instance:contactList.api.test.ContactsTest@14ec4505]" started-at="2025-03-26T21:46:15 IST" name="testUpdateContactFirstName" finished-at="2025-03-26T21:46:17 IST" duration-ms="2816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateContactFirstName -->
-        <test-method signature="testdeleteContacts()[pri:6, instance:contactList.api.test.ContactsTest@568bf312]" started-at="2025-03-26T18:07:05 IST" name="testdeleteContacts" finished-at="2025-03-26T18:07:07 IST" duration-ms="1729" status="PASS">
+        <test-method signature="testdeleteContacts()[pri:6, instance:contactList.api.test.ContactsTest@14ec4505]" started-at="2025-03-26T21:46:17 IST" name="testdeleteContacts" finished-at="2025-03-26T21:46:19 IST" duration-ms="1457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testdeleteContacts -->
       </class> <!-- contactList.api.test.ContactsTest -->
       <class name="contactList.api.test.UserTest">
-        <test-method is-config="true" signature="setUpData()[pri:0, instance:contactList.api.test.UserTest@52e677af]" started-at="2025-03-26T18:07:07 IST" name="setUpData" finished-at="2025-03-26T18:07:07 IST" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:contactList.api.test.UserTest@1a84f40f]" started-at="2025-03-26T21:46:19 IST" name="setUpData" finished-at="2025-03-26T21:46:19 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpData -->
-        <test-method signature="testPostUser()[pri:1, instance:contactList.api.test.UserTest@52e677af]" started-at="2025-03-26T18:07:07 IST" name="testPostUser" finished-at="2025-03-26T18:07:08 IST" duration-ms="1447" status="PASS">
+        <test-method signature="testPostUser()[pri:1, instance:contactList.api.test.UserTest@1a84f40f]" started-at="2025-03-26T21:46:19 IST" name="testPostUser" finished-at="2025-03-26T21:46:20 IST" duration-ms="1409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUser()[pri:2, instance:contactList.api.test.UserTest@1a84f40f]" started-at="2025-03-26T21:46:20 IST" name="testGetUser" finished-at="2025-03-26T21:46:22 IST" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testUpdateUser()[pri:3, instance:contactList.api.test.UserTest@1a84f40f]" started-at="2025-03-26T21:46:22 IST" name="testUpdateUser" finished-at="2025-03-26T21:46:24 IST" duration-ms="2832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testLoginUser()[pri:4, instance:contactList.api.test.UserTest@1a84f40f]" started-at="2025-03-26T21:46:24 IST" name="testLoginUser" finished-at="2025-03-26T21:46:26 IST" duration-ms="1654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testLogoutUser()[pri:5, instance:contactList.api.test.UserTest@1a84f40f]" started-at="2025-03-26T21:46:26 IST" name="testLogoutUser" finished-at="2025-03-26T21:46:28 IST" duration-ms="1524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutUser -->
+        <test-method signature="testDeleteUser()[pri:6, instance:contactList.api.test.UserTest@1a84f40f]" started-at="2025-03-26T21:46:28 IST" name="testDeleteUser" finished-at="2025-03-26T21:46:31 IST" duration-ms="3114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
       </class> <!-- contactList.api.test.UserTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

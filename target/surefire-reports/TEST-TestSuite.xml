@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="19.666" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="28.758" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/tv/Desktop/ContactList_API/target/test-classes:/Users/tv/Desktop/ContactList_API/target/classes:/Users/tv/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/tv/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/tv/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/tv/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tv/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tv/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tv/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tv/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tv/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tv/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tv/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/tv/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/tv/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/tv/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/tv/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/tv/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/tv/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/tv/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/tv/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/tv/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/tv/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/tv/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/tv/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/tv/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/tv/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/tv/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="/Users/tv/Desktop/ContactList_API/target/test-classes:/Users/tv/Desktop/ContactList_API/target/classes:/Users/tv/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/tv/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/tv/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/tv/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tv/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tv/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tv/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tv/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tv/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tv/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tv/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/tv/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/tv/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/tv/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/tv/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/tv/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/tv/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/tv/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/tv/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/tv/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/tv/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/tv/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/tv/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/tv/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/tv/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/tv/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/tv/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/tv/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/tv/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/tv/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/tv/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/tv/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/tv/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/tv/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/tv/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.20.0/log4j-slf4j-impl-2.20.0.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
     <property name="os.name" value="Mac OS X"/>
@@ -13,10 +15,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/tv/Desktop/ContactList_API/target/surefire/surefirebooter-20250326180649077_3.jar /Users/tv/Desktop/ContactList_API/target/surefire 2025-03-26T18-06-49_026-jvmRun1 surefire-20250326180649077_1tmp surefire_0-20250326180649077_2tmp"/>
+    <property name="sun.java.command" value="/Users/tv/Desktop/ContactList_API/target/surefire/surefirebooter-20250326214603473_3.jar /Users/tv/Desktop/ContactList_API/target/surefire 2025-03-26T21-46-03_425-jvmRun1 surefire-20250326214603473_1tmp surefire_0-20250326214603473_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/tv/Desktop/ContactList_API/target/test-classes:/Users/tv/Desktop/ContactList_API/target/classes:/Users/tv/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/tv/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/tv/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/tv/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tv/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tv/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tv/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tv/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tv/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tv/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tv/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/tv/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/tv/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/tv/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/tv/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/tv/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/tv/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/tv/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/tv/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/tv/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/tv/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/tv/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/tv/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/tv/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/tv/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/tv/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/tv/Desktop/ContactList_API/target/test-classes:/Users/tv/Desktop/ContactList_API/target/classes:/Users/tv/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/tv/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/tv/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/tv/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tv/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tv/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tv/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tv/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tv/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tv/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tv/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/tv/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/tv/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/tv/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/tv/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/tv/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/tv/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/tv/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/tv/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/tv/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/tv/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/tv/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/tv/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/tv/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/tv/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/tv/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/tv/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/tv/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/tv/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/tv/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/tv/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/tv/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/tv/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/tv/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/tv/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.20.0/log4j-slf4j-impl-2.20.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/tv"/>
     <property name="user.language" value="en"/>
@@ -29,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/tv/Desktop/ContactList_API/target/surefire/surefirebooter-20250326180649077_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/tv/Desktop/ContactList_API/target/surefire/surefirebooter-20250326214603473_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
@@ -56,241 +58,244 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testAddContacts" classname="contactList.api.test.ContactsTest" time="1.542">
+  <testcase name="testAddContacts" classname="contactList.api.test.ContactsTest" time="1.548">
     <system-out><![CDATA[HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1742992614&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=2i6Qsd2%2Fi4giYf6xPNBC6BiHUGZs8mn2%2FUhr5iNKKyY%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1742992614&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=2i6Qsd2%2Fi4giYf6xPNBC6BiHUGZs8mn2%2FUhr5iNKKyY%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005767&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=yVcuc%2BvpXs5eEGdREkapKJcHwtO2E3hTrm99lYACHXE%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005767&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=yVcuc%2BvpXs5eEGdREkapKJcHwtO2E3hTrm99lYACHXE%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
-Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2UzZjRlNjE5MzJiNTAwMTMwODY2ZjUiLCJpYXQiOjE3NDI5OTI2MTR9.AwovlJBWIBlGTL3H1AAl4ep1UMXuqZT4jzeUwcImMGA; Max-Age=684; Path=/; Expires=Wed, 26 Mar 2025 12:48:18 GMT
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2U0Mjg0N2FiNTg3YzAwMTMxZmRjM2YiLCJpYXQiOjE3NDMwMDU3Njd9.iEekYKGclqvqKHvsyAb8VCnAAFxpu2p_bd6p0yND1-g; Max-Age=684; Path=/; Expires=Wed, 26 Mar 2025 16:27:31 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 286
-Etag: W/"11e-OjfrnNA1uCr/CGeqrFr1VWaFIEo"
-Date: Wed, 26 Mar 2025 12:36:54 GMT
+Content-Length: 293
+Etag: W/"125-+MPVVjqPv0s2cjYtQvhAWtfH/QM"
+Date: Wed, 26 Mar 2025 16:16:07 GMT
 Via: 1.1 vegur
 
 {
     "user": {
-        "_id": "67e3f4e61932b500130866f5",
-        "firstName": "Joesph",
-        "lastName": "Weimann",
-        "email": "davina.hyatt@yahoo.com",
+        "_id": "67e42847ab587c00131fdc3f",
+        "firstName": "Marceline",
+        "lastName": "Schuppe",
+        "email": "tommie.carroll@hotmail.com",
         "__v": 1
     },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2UzZjRlNjE5MzJiNTAwMTMwODY2ZjUiLCJpYXQiOjE3NDI5OTI2MTR9.AwovlJBWIBlGTL3H1AAl4ep1UMXuqZT4jzeUwcImMGA"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2U0Mjg0N2FiNTg3YzAwMTMxZmRjM2YiLCJpYXQiOjE3NDMwMDU3Njd9.iEekYKGclqvqKHvsyAb8VCnAAFxpu2p_bd6p0yND1-g"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1742992616&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=CP1vOUxH9wr8dCsFtFs1d64ohYhvjUZWdGAehb%2FJR40%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1742992616&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=CP1vOUxH9wr8dCsFtFs1d64ohYhvjUZWdGAehb%2FJR40%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005769&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=lvGHDccQ8LWEI6JGWWFscWjaR4xw0DwRG1C%2BZlCHHXs%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005769&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=lvGHDccQ8LWEI6JGWWFscWjaR4xw0DwRG1C%2BZlCHHXs%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 330
-Etag: W/"14a-sbfSLG/GMII8zmJAcF/57sqAIv8"
-Date: Wed, 26 Mar 2025 12:36:56 GMT
+Content-Length: 340
+Etag: W/"154-3BTYxw8vloJptU4wnzk3+tRBLUA"
+Date: Wed, 26 Mar 2025 16:16:09 GMT
 Via: 1.1 vegur
 
 {
-    "_id": "67e3f4e8ab587c00131fd92b",
-    "firstName": "Scot",
-    "lastName": "Steuber",
+    "_id": "67e428491932b50013086a44",
+    "firstName": "Jeremiah",
+    "lastName": "Satterfield",
     "birthdate": "1970-01-01",
-    "email": "martin.hartmann@gmail.com",
+    "email": "tuan.farrell@yahoo.com",
     "phone": "8005555555",
     "street1": "1 Main St.",
     "street2": "Apartment A",
-    "city": "Keelingfort",
+    "city": "Kelleyville",
     "stateProvince": "KS",
     "postalCode": "12345",
-    "country": "Cameroon",
-    "owner": "67e3f4e61932b500130866f5",
+    "country": "Guinea-Bissau",
+    "owner": "67e42847ab587c00131fdc3f",
     "__v": 0
 }
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J(W): Ignoring binding found at [jar:file:/Users/tv/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.20.0/log4j-slf4j-impl-2.20.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J(W): See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 ]]></system-err>
   </testcase>
-  <testcase name="testReadContactList" classname="contactList.api.test.ContactsTest" time="1.413">
+  <testcase name="testReadContactList" classname="contactList.api.test.ContactsTest" time="1.44">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1742992618&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=wCZRYzHePGRltetAOHCnSUw0OdI1RrAaatek00nSWf8%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1742992618&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=wCZRYzHePGRltetAOHCnSUw0OdI1RrAaatek00nSWf8%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005770&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=VLU761aXFM4l%2Fsa1EtYJKZyrB7ZNBMUU%2FUVNssfzAOs%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005770&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=VLU761aXFM4l%2Fsa1EtYJKZyrB7ZNBMUU%2FUVNssfzAOs%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 332
-Etag: W/"14c-McjbFyjZ0CxBWP7FGCrPP8A4ivo"
-Date: Wed, 26 Mar 2025 12:36:58 GMT
+Content-Length: 342
+Etag: W/"156-4rYxis/eDxtkghyZo2a8wTz+0AA"
+Date: Wed, 26 Mar 2025 16:16:10 GMT
 Via: 1.1 vegur
 
 [
     {
-        "_id": "67e3f4e8ab587c00131fd92b",
-        "firstName": "Scot",
-        "lastName": "Steuber",
+        "_id": "67e428491932b50013086a44",
+        "firstName": "Jeremiah",
+        "lastName": "Satterfield",
         "birthdate": "1970-01-01",
-        "email": "martin.hartmann@gmail.com",
+        "email": "tuan.farrell@yahoo.com",
         "phone": "8005555555",
         "street1": "1 Main St.",
         "street2": "Apartment A",
-        "city": "Keelingfort",
+        "city": "Kelleyville",
         "stateProvince": "KS",
         "postalCode": "12345",
-        "country": "Cameroon",
-        "owner": "67e3f4e61932b500130866f5",
+        "country": "Guinea-Bissau",
+        "owner": "67e42847ab587c00131fdc3f",
         "__v": 0
     }
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testReadContacts" classname="contactList.api.test.ContactsTest" time="1.534">
+  <testcase name="testReadContacts" classname="contactList.api.test.ContactsTest" time="1.498">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1742992619&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=h4Rt56mGKt6tmLs5QN0xzAN1ljVf5qkB4HLZjxdoDjU%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1742992619&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=h4Rt56mGKt6tmLs5QN0xzAN1ljVf5qkB4HLZjxdoDjU%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005772&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=S%2FVr%2FGYCln7JkmRPuL%2BaEwPf%2BwhgCWZS4m8zeCTHyUk%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005772&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=S%2FVr%2FGYCln7JkmRPuL%2BaEwPf%2BwhgCWZS4m8zeCTHyUk%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 332
-Etag: W/"14c-McjbFyjZ0CxBWP7FGCrPP8A4ivo"
-Date: Wed, 26 Mar 2025 12:36:59 GMT
+Content-Length: 342
+Etag: W/"156-4rYxis/eDxtkghyZo2a8wTz+0AA"
+Date: Wed, 26 Mar 2025 16:16:12 GMT
 Via: 1.1 vegur
 
 [
     {
-        "_id": "67e3f4e8ab587c00131fd92b",
-        "firstName": "Scot",
-        "lastName": "Steuber",
+        "_id": "67e428491932b50013086a44",
+        "firstName": "Jeremiah",
+        "lastName": "Satterfield",
         "birthdate": "1970-01-01",
-        "email": "martin.hartmann@gmail.com",
+        "email": "tuan.farrell@yahoo.com",
         "phone": "8005555555",
         "street1": "1 Main St.",
         "street2": "Apartment A",
-        "city": "Keelingfort",
+        "city": "Kelleyville",
         "stateProvince": "KS",
         "postalCode": "12345",
-        "country": "Cameroon",
-        "owner": "67e3f4e61932b500130866f5",
+        "country": "Guinea-Bissau",
+        "owner": "67e42847ab587c00131fdc3f",
         "__v": 0
     }
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateContact" classname="contactList.api.test.ContactsTest" time="2.868">
+  <testcase name="testUpdateContact" classname="contactList.api.test.ContactsTest" time="2.79">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1742992621&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=R26T4T09aoMPbdO6IC5SpzryvBgk0SxlZSINVGNwol4%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1742992621&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=R26T4T09aoMPbdO6IC5SpzryvBgk0SxlZSINVGNwol4%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005773&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=KIEIWSzE%2B4rKBMhriT%2BjNSdDRbHNM2VxUdtGp2G7gGc%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005773&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=KIEIWSzE%2B4rKBMhriT%2BjNSdDRbHNM2VxUdtGp2G7gGc%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 344
-Etag: W/"158-4KylJVu7CbAwnbZcAa4kXthAj1U"
-Date: Wed, 26 Mar 2025 12:37:01 GMT
+Content-Length: 325
+Etag: W/"145-+81ETN+oTtYgv0ECI6SR2s0AecQ"
+Date: Wed, 26 Mar 2025 16:16:13 GMT
 Via: 1.1 vegur
 
 {
-    "_id": "67e3f4e8ab587c00131fd92b",
-    "firstName": "Rob",
-    "lastName": "Toy",
+    "_id": "67e428491932b50013086a44",
+    "firstName": "Harold",
+    "lastName": "Stamm",
     "birthdate": "1970-01-01",
-    "email": "jeffry.schulist@yahoo.com",
+    "email": "diego.gislason@gmail.com",
     "phone": "8005555555",
     "street1": "1 Main St.",
     "street2": "Apartment A",
-    "city": "Schuppeport",
+    "city": "Zacheryfort",
     "stateProvince": "KS",
     "postalCode": "12345",
-    "country": "French Southern Territories",
-    "owner": "67e3f4e61932b500130866f5",
+    "country": "Niue",
+    "owner": "67e42847ab587c00131fdc3f",
     "__v": 0
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateContactFirstName" classname="contactList.api.test.ContactsTest" time="3.068">
+  <testcase name="testUpdateContactFirstName" classname="contactList.api.test.ContactsTest" time="2.816">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1742992623&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=9y%2BuemW6DyhHlYlYbMMyVB8Z1UKUAhmEljG%2Ff12Yy54%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1742992623&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=9y%2BuemW6DyhHlYlYbMMyVB8Z1UKUAhmEljG%2Ff12Yy54%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005776&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=3TZ7mpUl1XGuCnK9PAL5JZXKTBFrhZROiKskKqN2zXc%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005776&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=3TZ7mpUl1XGuCnK9PAL5JZXKTBFrhZROiKskKqN2zXc%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 347
-Etag: W/"15b-/aeC4I+xGIdwgEay63hLqem3z5U"
-Date: Wed, 26 Mar 2025 12:37:03 GMT
+Content-Length: 326
+Etag: W/"146-D8ums80XXWycXKtus6yFVLyRxEg"
+Date: Wed, 26 Mar 2025 16:16:16 GMT
 Via: 1.1 vegur
 
 {
-    "_id": "67e3f4e8ab587c00131fd92b",
-    "firstName": "Alison",
-    "lastName": "Toy",
+    "_id": "67e428491932b50013086a44",
+    "firstName": "Loretta",
+    "lastName": "Stamm",
     "birthdate": "1970-01-01",
-    "email": "jeffry.schulist@yahoo.com",
+    "email": "diego.gislason@gmail.com",
     "phone": "8005555555",
     "street1": "1 Main St.",
     "street2": "Apartment A",
-    "city": "Schuppeport",
+    "city": "Zacheryfort",
     "stateProvince": "KS",
     "postalCode": "12345",
-    "country": "French Southern Territories",
-    "owner": "67e3f4e61932b500130866f5",
+    "country": "Niue",
+    "owner": "67e42847ab587c00131fdc3f",
     "__v": 0
 }
 HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1742992625&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Lu15LvoJdgIo3LeaSTpm2HKEBF8iyc1huHUp3hyrUFg%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1742992625&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Lu15LvoJdgIo3LeaSTpm2HKEBF8iyc1huHUp3hyrUFg%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005777&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Rf5wx4t1ItRhqck2HDoI0ERMiIA2HrAgZrKOzxZgftQ%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005777&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Rf5wx4t1ItRhqck2HDoI0ERMiIA2HrAgZrKOzxZgftQ%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 349
-Etag: W/"15d-xO5iSMqTkAdJOssarrEPdSeZkSA"
-Date: Wed, 26 Mar 2025 12:37:05 GMT
+Content-Length: 328
+Etag: W/"148-kPoNyt8TOVLNrveKuMs/1NZ4xjY"
+Date: Wed, 26 Mar 2025 16:16:17 GMT
 Via: 1.1 vegur
 
 [
     {
-        "_id": "67e3f4e8ab587c00131fd92b",
-        "firstName": "Alison",
-        "lastName": "Toy",
+        "_id": "67e428491932b50013086a44",
+        "firstName": "Loretta",
+        "lastName": "Stamm",
         "birthdate": "1970-01-01",
-        "email": "jeffry.schulist@yahoo.com",
+        "email": "diego.gislason@gmail.com",
         "phone": "8005555555",
         "street1": "1 Main St.",
         "street2": "Apartment A",
-        "city": "Schuppeport",
+        "city": "Zacheryfort",
         "stateProvince": "KS",
         "postalCode": "12345",
-        "country": "French Southern Territories",
-        "owner": "67e3f4e61932b500130866f5",
+        "country": "Niue",
+        "owner": "67e42847ab587c00131fdc3f",
         "__v": 0
     }
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testdeleteContacts" classname="contactList.api.test.ContactsTest" time="1.728">
+  <testcase name="testdeleteContacts" classname="contactList.api.test.ContactsTest" time="1.457">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1742992626&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=6NdxQlSXDX7DfUK6BjfH4XEAVZCiI%2Fwz0sIWsj5WxKk%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1742992626&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=6NdxQlSXDX7DfUK6BjfH4XEAVZCiI%2Fwz0sIWsj5WxKk%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005779&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=kwYxpazlsfFfoRnsady9Ao7FYhZw1XYfkuCaTlGHUBk%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005779&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=kwYxpazlsfFfoRnsady9Ao7FYhZw1XYfkuCaTlGHUBk%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: text/html; charset=utf-8
 Content-Length: 15
 Etag: W/"f-smqnjm2ArsFbkvZ+qy6N7Dow4bQ"
-Date: Wed, 26 Mar 2025 12:37:07 GMT
+Date: Wed, 26 Mar 2025 16:16:19 GMT
 Via: 1.1 vegur
 
 <html>
@@ -298,31 +303,158 @@ Via: 1.1 vegur
 </html>
 ]]></system-out>
   </testcase>
-  <testcase name="testPostUser" classname="contactList.api.test.UserTest" time="1.446">
+  <testcase name="testPostUser" classname="contactList.api.test.UserTest" time="1.412">
     <system-out><![CDATA[HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1742992628&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=WlcKatybxVASjaSdfwbeLqYgMcvQip2bv%2F0QRnq%2FQs8%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1742992628&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=WlcKatybxVASjaSdfwbeLqYgMcvQip2bv%2F0QRnq%2FQs8%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005780&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Vl5K1IE1Rwc8KK4Pytiyrj2gDgf%2BVOy64NGMx64kAcU%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005780&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Vl5K1IE1Rwc8KK4Pytiyrj2gDgf%2BVOy64NGMx64kAcU%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
-Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2UzZjRmNDE5MzJiNTAwMTMwODY2ZjkiLCJpYXQiOjE3NDI5OTI2Mjh9.csR_skHCFHm7dlPqZZLcNzllDXHNCr6XN5n6KCalVfo; Max-Age=684; Path=/; Expires=Wed, 26 Mar 2025 12:48:32 GMT
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2U0Mjg1NDE5MzJiNTAwMTMwODZhNDUiLCJpYXQiOjE3NDMwMDU3ODB9.54o6GHTQlw05n59FWJBRwlKY2gK4IcaId8GXjDmby0w; Max-Age=684; Path=/; Expires=Wed, 26 Mar 2025 16:27:44 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 282
-Etag: W/"11a-xqOqTD1RHeBKmA3ORp1lOcXVyFk"
-Date: Wed, 26 Mar 2025 12:37:08 GMT
+Content-Length: 289
+Etag: W/"121-XLflwZ3k80OnQtmNFWvAxI/e3CE"
+Date: Wed, 26 Mar 2025 16:16:20 GMT
 Via: 1.1 vegur
 
 {
     "user": {
-        "_id": "67e3f4f41932b500130866f9",
-        "firstName": "Risa",
-        "lastName": "Maggio",
-        "email": "hee.strosin@yahoo.com",
+        "_id": "67e428541932b50013086a45",
+        "firstName": "Domingo",
+        "lastName": "Lockman",
+        "email": "melanie.abbott@gmail.com",
         "__v": 1
     },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2UzZjRmNDE5MzJiNTAwMTMwODY2ZjkiLCJpYXQiOjE3NDI5OTI2Mjh9.csR_skHCFHm7dlPqZZLcNzllDXHNCr6XN5n6KCalVfo"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2U0Mjg1NDE5MzJiNTAwMTMwODZhNDUiLCJpYXQiOjE3NDMwMDU3ODB9.54o6GHTQlw05n59FWJBRwlKY2gK4IcaId8GXjDmby0w"
 }
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser" classname="contactList.api.test.UserTest" time="1.35">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005782&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=O6nACgtvnER8wlH1F4HGYeUazt1F5D9Fd2n6TV0bVBE%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005782&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=O6nACgtvnER8wlH1F4HGYeUazt1F5D9Fd2n6TV0bVBE%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 120
+Etag: W/"78-rug/EEr6GfNF+iCQW+qoX2lm7DM"
+Date: Wed, 26 Mar 2025 16:16:22 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "67e428541932b50013086a45",
+    "firstName": "Domingo",
+    "lastName": "Lockman",
+    "email": "melanie.abbott@gmail.com",
+    "__v": 1
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser" classname="contactList.api.test.UserTest" time="2.833">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005783&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=ZpPRJVlXoeS5EgGDN%2FfQ2NwaMSn7kNiXdqJ0y%2B6EONk%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005783&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=ZpPRJVlXoeS5EgGDN%2FfQ2NwaMSn7kNiXdqJ0y%2B6EONk%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 119
+Etag: W/"77-Dzp4hhL/Vk2agEpoVFMg8BmFJ4A"
+Date: Wed, 26 Mar 2025 16:16:23 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "67e428541932b50013086a45",
+    "firstName": "Merna",
+    "lastName": "Reichert",
+    "email": "melanie.abbott@gmail.com",
+    "__v": 1
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginUser" classname="contactList.api.test.UserTest" time="1.654">
+    <system-out><![CDATA[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2U0Mjg1NDE5MzJiNTAwMTMwODZhNDUiLCJpYXQiOjE3NDMwMDU3ODZ9.SSOXSrJNtzf3-uz-9c2arVTySlGhVwS3w_1YbxtHAy8
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005786&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=kpf1cX%2BTzQDoqInjj8UCI9%2Fx2RRQGOdkb5H2vA7D8Zo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005786&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=kpf1cX%2BTzQDoqInjj8UCI9%2Fx2RRQGOdkb5H2vA7D8Zo%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2U0Mjg1NDE5MzJiNTAwMTMwODZhNDUiLCJpYXQiOjE3NDMwMDU3ODZ9.SSOXSrJNtzf3-uz-9c2arVTySlGhVwS3w_1YbxtHAy8; Max-Age=36000; Path=/; Expires=Thu, 27 Mar 2025 02:16:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 288
+Etag: W/"120-x9OEJDR5rpF2arlML/H603V3acY"
+Date: Wed, 26 Mar 2025 16:16:26 GMT
+Via: 1.1 vegur
+
+{
+    "user": {
+        "_id": "67e428541932b50013086a45",
+        "firstName": "Merna",
+        "lastName": "Reichert",
+        "email": "melanie.abbott@gmail.com",
+        "__v": 2
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2U0Mjg1NDE5MzJiNTAwMTMwODZhNDUiLCJpYXQiOjE3NDMwMDU3ODZ9.SSOXSrJNtzf3-uz-9c2arVTySlGhVwS3w_1YbxtHAy8"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testLogoutUser" classname="contactList.api.test.UserTest" time="1.523">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005787&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=u%2B1optSgeJJoIdwDDCNYaCsDDnLfIl8NczlmZwAZs50%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005787&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=u%2B1optSgeJJoIdwDDCNYaCsDDnLfIl8NczlmZwAZs50%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Date: Wed, 26 Mar 2025 16:16:27 GMT
+Content-Length: 0
+Via: 1.1 vegur
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser" classname="contactList.api.test.UserTest" time="3.116">
+    <system-out><![CDATA[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2U0Mjg1NDE5MzJiNTAwMTMwODZhNDUiLCJpYXQiOjE3NDMwMDU3ODl9.zr4I6rqsw3R56JB98FAsAD3aPDulrqp4PB9gndOPITo
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005789&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=YvG9my9NDhGwpc3nUI4CGsWSlTn2u%2B5wdccgIbve1s0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005789&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=YvG9my9NDhGwpc3nUI4CGsWSlTn2u%2B5wdccgIbve1s0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2U0Mjg1NDE5MzJiNTAwMTMwODZhNDUiLCJpYXQiOjE3NDMwMDU3ODl9.zr4I6rqsw3R56JB98FAsAD3aPDulrqp4PB9gndOPITo; Max-Age=36000; Path=/; Expires=Thu, 27 Mar 2025 02:16:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 288
+Etag: W/"120-sT/tvjXo/uXtRY1eGi70fkqDNvA"
+Date: Wed, 26 Mar 2025 16:16:29 GMT
+Via: 1.1 vegur
+
+{
+    "user": {
+        "_id": "67e428541932b50013086a45",
+        "firstName": "Merna",
+        "lastName": "Reichert",
+        "email": "melanie.abbott@gmail.com",
+        "__v": 4
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2U0Mjg1NDE5MzJiNTAwMTMwODZhNDUiLCJpYXQiOjE3NDMwMDU3ODl9.zr4I6rqsw3R56JB98FAsAD3aPDulrqp4PB9gndOPITo"
+}
+this is for delete
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2U0Mjg1NDE5MzJiNTAwMTMwODZhNDUiLCJpYXQiOjE3NDMwMDU3ODl9.zr4I6rqsw3R56JB98FAsAD3aPDulrqp4PB9gndOPITo
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1743005791&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=roUPD1ZBZbp1ZuVY6qBq%2F3rhGtB5bXFrU1AXspAzLZ4%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1743005791&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=roUPD1ZBZbp1ZuVY6qBq%2F3rhGtB5bXFrU1AXspAzLZ4%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Date: Wed, 26 Mar 2025 16:16:31 GMT
+Content-Length: 0
+Via: 1.1 vegur
 ]]></system-out>
   </testcase>
 </testsuite>
