@@ -1,15 +1,17 @@
 package contactList.api.test;
 
+import TestListener.TestListener;
 import contactList.api.endpoints.ContactsEndPoints;
 
 import com.github.javafaker.Faker;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import payload.Contacts;
 
-
+@Listeners(TestListener.class)
 public class ContactsTest {
     Faker faker;
     Contacts contactsPayload;
